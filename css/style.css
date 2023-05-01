@@ -16,12 +16,11 @@
 #flux{
     width: 70px;
     height: 70px;
+    width: 100%;
     position: absolute;
-    left: 57.2vh;
-    top: 52.5vh;
-    background-image: url(../images/Flux_symbol_blue-white.svg) !important;
-    background-size: 100%;
-    background-repeat: no-repeat;
+}
+#flux img{
+    margin: -36% auto 100%;
 }
 
 .tlbr{
@@ -152,6 +151,10 @@ nav{
     #flux{
         left: 46.25%;
         top: 51%;
+        text-align: left;
+    }
+    #flux img{
+        margin: 0 !important;
     }
 }
 
@@ -162,7 +165,7 @@ nav{
     }
 }
 @media (max-width: 769px){
-    #flux{
+    #flux img{
         width: 0%;
     }
     #grey2{
