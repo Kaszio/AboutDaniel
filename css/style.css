@@ -247,8 +247,12 @@ nav{
     }
 }
 
-@media (max-width: 575px){
-
+@media (max-height: 376px){
+    .u-section-1 .u-shape-1 {
+        height: 80vh !important;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
 }
 
 /* ddddddddddddddd */
