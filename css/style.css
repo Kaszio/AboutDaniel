@@ -16,8 +16,9 @@
 #flux{
     width: 70px;
     height: 70px;
-    width: 100%;
+    width: 50%;
     position: absolute;
+    text-align: center;
 }
 #flux img{
     position: absolute;
@@ -148,6 +149,13 @@ nav{
     font-size: 30px !important;
 }
 
+@media (min-width: 1201px){
+    #flux{
+        width: 100%;
+    }
+
+}
+
 @media (max-width: 1200px){
     #flux{
         left: 46.25%;
@@ -165,7 +173,7 @@ nav{
         top: 52.5%;
     }
 }
-@media (max-width: 769px){
+@media (max-width: 757px){
     #flux img{
         width: 0%;
     }
